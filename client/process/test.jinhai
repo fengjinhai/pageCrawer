@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        
+<script type="text/javascript"> 
+    var page_begintime = (+new Date());
+
+    var biz = "MzA3NDg2MTgxOQ==";
+    var sn = "df51876b9d7f81b85b6f8dce73dee3bf" || "";
+    var mid = "401793995" || "";
+    var idx = "1" || "" ;
+    
+    //辟谣需求
+    var is_rumor = ""*1;
+    var norumor = ""*1;
+    if (!!is_rumor&&!norumor){
+      if (!document.referrer || document.referrer.indexOf("mp.weixin.qq.com/mp/rumor") == -1){
+        location.href = "http://mp.weixin.qq.com/mp/rumor?action=info&__biz=" + biz + "&mid=" + mid + "&idx=" + idx + "&sn=" + sn + "#wechat_redirect";
+      }
+    }
+
+    //原创需求，需要跳转到中间页
+    /*
+    var copyrightInfo = {
+        display_source : ""*1,
+        nocopyrightsource : ""*1
+    };
+    if (!!copyrightInfo.display_source&&!copyrightInfo.nocopyrightsource){
+      if (!document.referrer || document.referrer.indexOf("mp.weixin.qq.com/mp/reprint") == -1){
+        location.href = "http://mp.weixin.qq.com/mp/reprint?action=info&__biz=" + biz + "&mid=" + mid + "&idx=" + idx + "&sn=" + sn + "#wechat_redirect";
+      }
+    }*/
+</script>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+
+<link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/favicon22c41b.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<script type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&amp;", "&", "&yen;", "¥"];
+        if (encode) {
+            replace.reverse();
+        }
+        for (var i=0,str=this;i< replace.length;i+= 2) {
+             str=str.replace(new RegExp(replace[i],'g'),replace[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; // 做一层保护，保证URL是合法的
+        var query = url.split('?')[1].split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || '';
+        window.key = params['key'] || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+    })();
+
+</script>
+
+        <title>被苹果拒绝100多次真相！一半原因是“IAP异常”</title>
+        
+<link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve2a26bd.css">
+<style>
+     
+    </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_pc2826cc.css">
+<![endif]-->
+<script type="text/javascript">
+    document.domain = "qq.com";
+</script>
+
+    </head>
+    <body id="activity-detail" class="zh_CN mm_appmsg" ontouchstart="">
+        
+    <script type="text/javascript">
+        var write_sceen_time = (+new Date());
+    </script>
+    
+    <div id="js_cmt_mine" class="discuss_container editing access" style="display:none;">
+        <div class="discuss_container_inner">
+            <h2 class="rich_media_title">被苹果拒绝100多次真相！一半原因是“IAP异常”</h2>
+            <span id="log"></span>
+            <div class="frm_textarea_box_wrp">
+                <span class="frm_textarea_box">
+                    <textarea id="js_cmt_input" class="frm_textarea" placeholder="评论将由公众帐号筛选后显示，对所有人可见。"></textarea>
+                    <div class="emotion_tool">
+                        <span class="emotion_switch" style="display:none;"></span>
+                        <span id="js_emotion_switch" class="pic_emotion_switch_wrp">
+                            <img class="pic_default" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x278965.png" alt="">
+                            <img class="pic_active" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x278965.png" alt="">
+                        </span>
+                        <div class="emotion_panel" id="js_emotion_panel">
+                            <span class="emotion_panel_arrow_wrp" id="js_emotion_panel_arrow_wrp">
+                                <i class="emotion_panel_arrow arrow_out"></i>
+                                <i class="emotion_panel_arrow arrow_in"></i>
+                            </span>
+                            <div class="emotion_list_wrp" id="js_slide_wrapper">
+                                
+                                
+                            </div>
+                            <ul class="emotion_navs" id="js_navbar">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </span>
+            </div>
+            <div class="discuss_btn_wrp"><a id="js_cmt_submit" class="btn btn_primary btn_discuss btn_disabled" href="javascript:;">提交</a></div>
+            <div class="discuss_list_wrp" style="display:none">
+                <div class="rich_tips with_line title_tips discuss_title_line">
+                    <span class="tips">我的评论</span>
+                </div>
+                <ul class="discuss_list" id="js_cmt_mylist"></ul>
+            </div>
+            <div class="rich_tips tips_global loading_tips" id="js_mycmt_loading">
+                <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white2805ea.gif" class="rich_icon icon_loading_white" alt="">
+                <span class="tips">加载中</span>
+            </div>
+            <div class="wx_poptips" id="js_cmt_toast" style="display:none;">
+                <img alt="" class="icon_toast" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABqCAYAAABUIcSXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3NpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyMTUxMzkxZS1jYWVhLTRmZTMtYTY2NS0xNTRkNDJiOGQyMWIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTA3QzM2RTg3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTA3QzM2RTc3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NWMyOGVjZTMtNzllZS00ODlhLWIxZTYtYzNmM2RjNzg2YjI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjIxNTEzOTFlLWNhZWEtNGZlMy1hNjY1LTE1NGQ0MmI4ZDIxYiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pmvxj1gAAAVrSURBVHja7J15rF1TFMbXk74q1ZKHGlMkJVIhIgg1FH+YEpEQJCKmGBpThRoSs5jVVNrSQUvEEENIhGiiNf9BiERICCFIRbUiDa2qvudbOetF3Tzv7XWGffa55/uS7593977n3vO7e5+199p7v56BgQGh0tcmvAUERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERVAUQVEERVAUQbVYk+HdvZVG8b5F0xj4RvhouB+eCy8KrdzDJc1RtAX8ILxvx98V1GyCSkN98Cx4z/95/Wn4fj6j6tUEeN4wkFSnw1MJqj5NhBfAuwaUHREUg4lqNMmePVsHll/HFhVfe1t3FwpJI8DXCCquDrCWNN4B6Tb4M3Z98aTPmTvh0YHl18PXw29yZiKejoPvcUD6E74yFBJbVDk6Bb7K8aP/Hb4c/tRzEYIqprPhSxzlf4Uvhb/0Xoig8qnHAJ3lqPMzfDH8XZ4LEpRf2sVdA5/sqPO9Qfop70UJyn+/boaPddT5yrq7VUUvTIVJI7q74MMddXR8NB1eXcYvhBpZm0s2w72/o86HFoKvLau/pYaXzjLMdUJ6y0LwtWV9CIIaXtvA8+G9HHV03u5q+K+yH47U0NoRngPv7KjzHDwTLj0bS1BDazfJJlcnOOostC6ysnCT+q80G/sIvFVgeW09D8FPVT0uoP7VfvAD8NjA8pqmuAN+OcYAjso0RbIZ8DGB5TVNcRO8JMaHY9SXSdfa3eeANJimWBLrA7JFiZwIXye+NMUV8CcxP2SRFjXefok7NRjSGZJlWUPvw2/wtNiQirSoXWyMsR28wR7AzzYM0oXw+Y7yK+CLJGeaoqjyrJSdZJD6Ov4+z5y6NJc0Az7NUecHydIUy+v60KNyQHoM3nKI1y7YCFiq0i7uBvgER52vDdKqWn9djhY1Dn4G3n6Ecqm2rF74dvgoR53S0hQxW9RJAZAGW5bSn58QJA27dQ7uIEedjywEX5NKVxCqsY6y+qA+LxFI4+yZ6oH0trWkNan80jygtIUsc5SflgAsDXgehfdx1KkkTRE76tN+Xue2jnTU0Ru1oIbvpt30bBtKhOp5yaaRkts0lic8V1i6dPcIRx2d/l8Y8XtNNEg7OOo8bl1kmmOKnDsO88CaYzejau0hWZqiL7C83oCH4SeTHvwV2BqqsHRVztSEYOmWF80NeXZT6Hd4KflResE9vCnBOlCyGfDNAstHTVPUDWoQ1t3iW+9WNizvlhfd4aerXd+ThqiMfNR6+9LvOOro5OY5JX2H4+F7HZD+kGzlamMgldWiirQsjcwWFbjmqZJteekJLK9pisvgL6RhKvuciZiwzrWWGapfrPy30kBVcSBIrw0aD3PU0XB6cehntq7rTMf7/2iQlktDVdXJLXlg6VjmiYBn6rWSTRCH6hvJ0hQrpcGq8oidsmHpTP8t8DGO9/vcWt9qabiqPgup1yKyQwvC2tSefZ73SSpNkUJ4PlLorlHZ+446nc8f3fIyywlJhwrTuwVSjBa1ccvSxN0hjjoK5xVrYZMd9V6XbFfgBukixTwGLg8sDam3dZR/wZ6L/dJlin1en8LS+bgpFbz3Ygvzu1J1HKxYNqxGpCmaCEo12rrBorD6LRp8UbpcdR5VWhTW35KlKd6QFqjuM2XzwlpnMxTvSkuUwuG/Xlg6NtPjbT6WFimF/VG6LEvXgn8QGDjMbBukVECFwhpoS+CQatfX2Q1q6H7wENHdrfCr0lKleEB9JyxNneus+VJpsVL9TwI6W65LovWIGl3KtVJaLv7LBwYTFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFFWq/hFgADUMN4RzT6/OAAAAAElFTkSuQmCC">
+                <p class="toast_content">已评论</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="js_article" class="rich_media">
+        
+        <div id="js_top_ad_area" class="top_banner">
+ 
+        </div>
+                
+
+        <div class="rich_media_inner">
+            <div id="page-content">
+                <div id="img-content" class="rich_media_area_primary">
+                    <h2 class="rich_media_title" id="activity-name">
+                        被苹果拒绝100多次真相！一半原因是“IAP异常” 
+                    </h2>
+                    <div class="rich_media_meta_list">
+                        						                        <em id="post-date" class="rich_media_meta rich_media_meta_text">2015-12-04</em>
+
+                                                <em class="rich_media_meta rich_media_meta_text">腾讯大讲堂</em>
+                                                <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname" href="javascript:void(0);" id="post-user">游戏陀螺海外</a>
+                        <span class="rich_media_meta rich_media_meta_text rich_media_meta_nickname">游戏陀螺海外</span>
+
+                        <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                            <div class="profile_inner">
+                                <strong class="profile_nickname">游戏陀螺海外</strong>
+                                <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                                <p class="profile_meta">
+                                <label class="profile_meta_label">微信号</label>
+                                <span class="profile_meta_value">youxituoluo</span>
+                                </p>
+
+                                <p class="profile_meta">
+                                <label class="profile_meta_label">功能介绍</label>
+                                <span class="profile_meta_value">关注游戏创业者，为游戏创业服务。</span>
+                                </p>
+                                
+                            </div>
+                            <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                                <i class="profile_arrow arrow_out"></i>
+                                <i class="profile_arrow arrow_in"></i>
+                            </span>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                                                            
+                                                            
+                    
+                    <div class="rich_media_content " id="js_content">
+                        
+                        <p><span style="line-height: 1.6; color: rgb(178, 178, 178);">作者：互娱iOS预审团队，隶属于互娱研发部品质管理中心，致力于互娱产品的iOS审核前的验收工作。</span><br  /></p><p><br  /></p><p>iOS审核一直是每款移动产品上架苹果商店时面对的一座大山，每次提审都像是一次漫长而又悲壮的旅行，经常被苹果拒之门外，无比煎熬。那么问题来了，我们有没有什么办法准确把握苹果审核准则，从而提升审核的通过率呢？答案是肯定的，腾讯预审团队从以下两方面做了探索，经过近一年的推行和数据监控， iOS审核月通过率从过往的35%提升到85%+：</p><p><br  /></p><p>1.分析过往提审被拒的案例，并结合《苹果应用商店审核指南》的条款，整理成可执行的审查条目；</p><p><br  /></p><p>2.抽离出可以自动化的方法，提升审核的效率；</p><p><br  /></p><p>接下来我们将带你一起走进苹果审核，揭秘iOS审核的真相。本篇作为引子，<span style="color: rgb(0, 176, 240);">分三个层面给大家简单介绍iOS审核相关内容：</span></p><p><br  /></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p>iOS审核探秘之审核设备篇</p></li><li><p>iOS审核被拒纬度剖析</p></li><li><p>腾讯预审团队的iOS预审验收维度</p></li></ul><p><br  /></p><p><span style="color: rgb(0, 176, 240);"><strong>一、<span style="line-height: 1.6;">iOS审核探秘之审核设备篇</span></strong></span></p><p><br  /></p><p>苹果的产品从07年推出后，逐步推陈出新，外部市场上也已经有比较多的产品硬件版本和系统版本。如此多的系统版本，我们怎么去保证提审版本的质量，是一直困惑测试和产品团队的点。</p><p><br  /></p><p>往往苹果突然发布了新的系统，我们怎么应对这些风险呢？</p><p><br  /></p><p><strong>【经典案例】</strong></p><p><br  /></p><p>14年底，由于iOS新版本8.1.1系统的发布，做了一些系统底层Bug的修复，导致了游戏产品支付不成功、webview登录失败。</p><p><br  /></p><p style="text-align:center"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/Bznu27PFaZibvkMcliclvr8D4ibKX2nd88ywH3Z0c2FgMGJU1LLUe26CdETlj7Iic1zjh23icnpcoVeCz0zcjeCHeWw/0?wx_fmt=png" data-ratio="0.24820143884892087" data-w=""  /></p><p><br  /></p><p><strong>【关键举措】</strong></p><p><br  /></p><p>1、与苹果关注同样的验收版本：推测苹果审核团队设备验收选型也会遵循原则：验收最新发布的两个系统版本，两个硬件版本。保证游戏可以在市场占有率最高的两个系统版本及硬件配置上可以流畅运行。</p><p><br  /></p><p>因此腾讯预审团队会根据当前版本发布的节奏采购设备，升级系统，保证能覆盖到以上的系统版本和硬件版本。目前验收的机器列表及型号：</p><p><br  /></p><p style="text-align:center"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/Bznu27PFaZibvkMcliclvr8D4ibKX2nd88yalZEKibKo7BKeDWicpuickfMutnPf4eX56WbUIzyicXscJu5WdLBM1UDGw/0?wx_fmt=png" data-ratio="0.4856115107913669" data-w=""  /></p><p><br  /></p><p>2、关注beta版本：苹果在新版本上线前会发布beta版本做少量测试，此时需要跟进beta版本，可以提前发现问题，避免突然版本发布造成措手不及。</p><p><br  /></p><p><span style="color: rgb(0, 176, 240);"><strong>二、<span style="line-height: 1.6;">iOS审核被拒纬度剖析</span></strong></span></p><p><br  /></p><p>为了探究更深层次的被拒情况，我们做了细化的分析，通过2014年的提审数据统计，看看都是因为哪些原因被拒吧！</p><p><br  /></p><p style="text-align:center"><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/Bznu27PFaZibvkMcliclvr8D4ibKX2nd88yMZZa0bxMheglzII791f63giaLkIWJo3W5mPocPwQmSkiaK4x5fhoUdsA/0?wx_fmt=png" data-ratio="0.6241007194244604" data-w=""  /></p><p><br  /></p><p><span style="color: rgb(0, 176, 240);"><strong>三、<span style="line-height: 1.6;">预审业务验收的维度</span></strong></span></p><p><br  /></p><p>根据2014年的数据统计情况，并结合《苹果应用商店审核指南》，预审组通过细分将预审工作划为3大模块：客户端资源检查、应用内容检查和提审资源检查：</p><p><br  /></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p><strong>客户端资源检查</strong></p></li></ul><p><br  /></p><p>确保客户端内Plist等配置符合苹果要求，不存在多余的Key值enable；</p><p><br  /></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p><strong>应用内容检查</strong></p></li></ul><p><br  /></p><p>对应用的内容进行审查，确认无涉及色情、庸俗、暴力、枪支等内容；并对公告文字等筛查，无苹果禁止的字眼等；应用内不包含cdkey兑换，好友邀请及炫耀等苹果最新禁止的内容；</p><p><br  /></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p><strong>提审资源检查</strong></p></li></ul><p><br  /></p><p>确保提交的游戏截图、视频符合苹果要求，且截图及视频中没有敏感信息；同时视频截图等均符合苹果的技术要求，帧率分辨率达标.</p><p><br  /></p><p>本文先简介下苹果审核的相关内容，后续会依据业务验收的维度，给大家逐一介绍验收的要点、曾经遇到的坑和那些让人不淡定的被拒案例。</p><p><br  /></p><section class="wxqq-borderTopColor" style="margin-top: 2em; padding-top: 0.5em; padding-bottom: 0.5em; font-family: inherit; font-size: 1em; line-height: 25.6px; white-space: normal; border-style: solid none none; border-top-width: 1px; border-top-color: rgb(0, 176, 240); text-decoration: inherit; color: rgb(166, 166, 166);"><section style="margin-top: -1.2em; text-align: center; border: none; line-height: 1.4;"><strong><span class="wxqq-bg" style="padding: 8px 23px; border-radius: 25px; color: rgb(255, 255, 255); font-size: 1em; font-family: inherit; font-weight: inherit; text-decoration: inherit; border-color: rgb(112, 216, 255); background-color: rgb(0, 176, 240);">游戏陀螺</span></strong></section></section><p style="line-height: 25.6px; white-space: normal; text-align: center;"><span style="color: rgb(0, 176, 240); font-size: 14px;">关注泛游戏产业，为游戏创业者服务</span></p><p style="line-height: 25.6px; white-space: normal;"><span style="font-size: 10px; text-align: right; color: rgb(0, 176, 240);"></span></p><p style="line-height: 25.6px; white-space: normal; text-align: center;"><span style="font-size: 14px; color: rgb(0, 176, 240);"><strong>网站</strong></span></p><p style="line-height: 25.6px; white-space: normal; text-align: center;"><span style="color: rgb(127, 127, 127); font-size: 14px;">官网 | youxituoluo.com</span><br  /></p><p style="line-height: 25.6px; white-space: normal; text-align: center;"><span style="font-size: 14px; color: rgb(127, 127, 127);">英文 | gamegyro.com  </span></p><p style="line-height: 25.6px; white-space: normal; text-align: center;"><span style="font-size: 14px; color: rgb(127, 127, 127);">日文 | jp.gamegyro.com</span></p><p style="line-height: 25.6px; white-space: normal; text-align: center;"><span style="color: rgb(0, 176, 240);"><strong><span style="font-size: 14px;">合作联系</span></strong></span></p><p style="line-height: 25.6px; white-space: normal; text-align: center;"><span style="color: rgb(127, 127, 127); font-size: 14px;">商务、内容合作请加QQ：1394720173</span></p><p style="line-height: 25.6px; white-space: normal; text-align: center;"><span style="color: rgb(127, 127, 127); font-size: 14px;">投稿邮箱：tougao@youxituoluo.com</span></p><p style="line-height: 25.6px; white-space: normal; text-align: center;"><span style="color: rgb(127, 127, 127); font-size: 14px;">WeRec手游录像SDK合作QQ：201533904</span></p><p style="line-height: 25.6px; white-space: normal; text-align: center;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/Bznu27PFaZ8IdgAPSbzaK1vHGYibwUFszAny1Bicx5ibNYuVmsxSf1mAXAtJQd3kJAgo0y9Eq4Uv1ibaLLzLMAj74w/0?wx_fmt=jpeg" data-ratio="1" data-w="200"  /><br  /></p><p style="line-height: 25.6px; white-space: normal; text-align: center;"><span style="font-size: 14px; color: rgb(0, 176, 240);">游戏陀螺 微信号：shouyoushouce  </span><br  /></p><p style="line-height: 25.6px; white-space: normal; text-align: center;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/Bznu27PFaZ8IdgAPSbzaK1vHGYibwUFsz6FcBUUQicUJ1X4iaKB8BVQzrmbZrlQExmwCgdhp0dLxv3sHeQRBkxDbg/0?wx_fmt=jpeg" data-ratio="1" data-w="200"  /><br  /><span style="color: rgb(0, 176, 240); font-size: 14px;">海外市场内容微信号：youxituoluo</span></p>
+                    </div>
+                    <script type="text/javascript">
+                        var first_sceen__time = (+new Date());
+
+                        if ("" == 1 && document.getElementById('js_content'))
+                            document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+
+                                        (function(){
+                            if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                                var link = document.createElement('link');
+                                var head = document.getElementsByTagName('head')[0];
+                                link.rel = 'stylesheet';
+                                link.type = 'text/css';
+                                link.href = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_pc2826cc.css";
+                                head.appendChild(link);
+                            }
+                        })();
+                    </script>
+                    <link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_combo29ab01.css">
+                    
+                    
+                                        
+                                        
+                                        <div class="rich_media_tool" id="js_toobar3">
+                                                                    <div id="js_read_area3" class="media_tool_meta tips_global meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+                        <span style="display:none;" class="media_tool_meta meta_primary tips_global meta_praise" id="like3">
+                            <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum3"></span>
+                        </span>
+
+                        <a id="js_report_article3" style="display:none;" class="media_tool_meta tips_global meta_extra" href="javascript:void(0);">举报</a>
+
+                    </div>
+                </div>
+
+                <div class="rich_media_area_extra">
+
+                    
+                                        <div class="mpda_bottom_container" id="js_bottom_ad_area">
+                        
+                    </div>
+
+                    
+                    <div id="js_iframetest" style="display:none;"></div>
+
+                    
+                                        <div class="rich_media_extra" id="js_cmt_area" style="display:none">
+
+                        <div class="discuss_container" id="js_cmt_main" style="display:none">
+                            <div class="rich_tips with_line title_tips discuss_title_line">
+                                <span class="tips">精选评论</span>
+                            </div>
+                            <p class="tips_global tc title_bottom_tips" id="js_cmt_nofans1" style="display:none;">关注该公众号可参与评论</p>
+                            <p class="discuss_icon_tips title_bottom_tips tr" id="js_cmt_addbtn1" style="display:none">
+                                
+                                                                <a href="#comment">写评论<img class="icon_edit" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_edit25ded2.png" alt=""></a>
+                                                            </p>
+                            <ul class="discuss_list" id="js_cmt_list"></ul>
+                        </div>
+
+
+                        <div class="tips_global rich_split_tips tc" id="js_cmt_nofans2" style="display:none;">
+                            关注该公众号可参与评论
+                        </div>
+
+                        <p class="discuss_icon_tips rich_split_tips tr" id="js_cmt_addbtn2" style="display:none">
+                            
+                                                        <a href="#comment">写评论<img class="icon_edit" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_edit25ded2.png" alt=""></a>
+                                                    </p>
+
+                        <p class="rich_split_tips tc tips_global" id="js_cmt_tips" style="display:none;"></p>
+
+
+                        <div class="rich_tips tips_global loading_tips" id="js_cmt_loading">
+                            <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white2805ea.gif" class="rich_icon icon_loading_white" alt="">
+                            <span class="tips">加载中</span>
+                        </div>
+
+                        <div class="rich_tips with_line tips_global" id="js_cmt_statement" style="display:none">
+                            <span class="tips">以上评论由公众帐号筛选后显示</span>
+                        </div>
+
+                        <p class="rich_split_tips tc" id="js_cmt_qa" style="display:none;">
+                            <a href="http://kf.qq.com/touch/sappfaq/150211YfyMVj150313qmMbyi.html?scene_id=kf264">
+                                了解评论功能详情
+                            </a>
+                        </p>
+
+                    </div>
+                                    </div>
+               
+            </div>
+            <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+                <div class="qr_code_pc_inner">
+                    <div class="qr_code_pc">
+                        <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                        <p>微信扫一扫<br>关注该公众号</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+        
+        <script>window.moon_map = {"appmsg/emotion/caret.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret278965.js","appmsg/emotion/map.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/map278965.js","appmsg/emotion/textarea.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea27cdc5.js","appmsg/emotion/nav.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav278965.js","appmsg/emotion/common.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common278965.js","appmsg/emotion/slide.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide27cdc5.js","biz_wap/jsapi/cardticket.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket275627.js","pages/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report2a26bd.js","pages/music_player.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player298e98.js","pages/loadscript.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript292ed8.js","appmsg/emotion/dom.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom278965.js","appmsg/emotion/emotion.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion27f4f1.js","biz_wap/utils/hashrouter.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hashrouter2805ea.js","appmsg/cmt_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html2a2c13.js","a/gotoappdetail.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/gotoappdetail2a2c13.js","a/ios.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios275627.js","a/android.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android275627.js","a/profile.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile29b1f8.js","a/card.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card29b1f8.js","biz_wap/utils/position.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position29b1f8.js","appmsg/a_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a_report282222.js","biz_common/utils/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report275627.js","biz_common/utils/huatuo.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/huatuo293afc.js","biz_common/utils/cookie.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie275627.js","pages/voice_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_tpl.html2a2c13.js","pages/voice_component.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component2a2c13.js","pages/qqmusic_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/qqmusic_tpl.html2a2c13.js","new_video/ctl.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl292ed8.js","biz_common/utils/monitor.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor2a30ee.js","biz_common/utils/spin.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/spin275627.js","biz_wap/jsapi/pay.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/pay275627.js","appmsg/reward_entry.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry29bb2b.js","appmsg/comment.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment2a2c13.js","appmsg/like.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like29f4e9.js","appmsg/a.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a29ff2a.js","pages/version4video.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video292ed8.js","biz_wap/utils/storage.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage275627.js","biz_common/tmpl.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl275627.js","appmsg/img_copyright_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html2a2c13.js","appmsg/ad_tpl.html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/ad_tpl.html2a2c13.js","biz_common/ui/imgonepx.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx275627.js","biz_common/dom/attr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr275627.js","biz_wap/utils/ajax.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax297cdb.js","biz_common/utils/string/html.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html29f4e9.js","appmsg/report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report2a30ee.js","biz_common/dom/class.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class275627.js","appmsg/report_and_source.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source29f4e9.js","appmsg/page_pos.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos29f4e9.js","appmsg/cdn_speed_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report275627.js","appmsg/voice.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice2a2c13.js","appmsg/qqmusic.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic2a2c13.js","appmsg/iframe.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe2989c1.js","appmsg/review_image.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image29d138.js","appmsg/outer_link.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link275627.js","biz_wap/jsapi/core.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core275627.js","biz_common/dom/event.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event275627.js","appmsg/copyright_report.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report2a2c13.js","appmsg/cache.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cache2a30ee.js","appmsg/pay_for_reading.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/pay_for_reading28f721.js","appmsg/async.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async2a2c13.js","biz_wap/ui/lazyload_img.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img275627.js","biz_common/log/jserr.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr2805ea.js","appmsg/share.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share2a2c13.js","biz_wap/utils/mmversion.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion275627.js","appmsg/cdn_img_lib.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib275627.js","biz_common/utils/url/parse.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse275627.js","biz_wap/utils/device.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device27f46f.js","biz_wap/jsapi/a8key.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/a8key2a30ee.js","appmsg/index.js":"http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index2a30ee.js"};window.moon_crossorigin = true;</script><script type="text/javascript" src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/moon275627.js" crossorigin></script>
+  <script type="text/javascript">
+      var not_in_mm_css = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/not_in_mm2637ae.css";
+      var windowwx_css = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_pc2826cc.css";
+      var tid = "";
+      var aid = "";
+      var clientversion = "11020201";
+      var appuin = "MzA3NDg2MTgxOQ==";
+
+      var source = "0";
+      var scene = 75;
+      
+      var itemidx = "";
+      var nickname = "游戏陀螺海外";
+      var ct = "1449207660";
+      var user_name = "gh_8a1fcf9e9a94";
+      var user_name_new = "";
+      var fakeid   = "OTM1ODAwOTQz";
+      var version   = "";
+      var is_limit_user   = "0";
+      var msg_title = "被苹果拒绝100多次真相！一半原因是“IAP异常”";
+      var msg_desc = "iOS审核一直是每款移动产品上架苹果商店时面对的一座大山，每次提审都像是一次漫长而又悲壮的旅行，经常被苹果拒之门外，无比煎熬。那么问题来了，我们有没有什么办法准确把握苹果审核准则，从而提升审核的通过率呢？";
+      var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz/Bznu27PFaZibvkMcliclvr8D4ibKX2nd88ydwfMePXmpT2Nf6M0WqXCFY2s1KwibsgcqOvKMvp2nANW2eU8LyEy5EQ/0?wx_fmt=jpeg";
+      var msg_link = "http://mp.weixin.qq.com/s?__biz=MzA3NDg2MTgxOQ==&amp;mid=401793995&amp;idx=1&amp;sn=df51876b9d7f81b85b6f8dce73dee3bf#rd";
+      var user_uin = "935800943"*1;
+      var msg_source_url = '';
+      var img_format = 'jpeg';
+      var srcid = '12046gtNCMPRC1STfitdli44';
+      var networkType;
+      var appmsgid = '' || '401793995';
+      var comment_id = "2367929929" * 1;
+      var comment_enabled = "" * 1;
+      var is_need_reward = "0" * 1;
+      var is_https_res = ("" * 1) && (location.protocol == "https:");
+
+      var devicetype = "iMac&amp;nbsp;MacBookPro12,1&amp;nbsp;OSX&amp;nbsp;OSX&amp;nbsp;10.10.4&amp;nbsp;build(14E46)";
+      var source_username = "";  
+      var profile_ext_signature = "" || "";
+      var reprint_ticket = "";
+      var source_mid = "";
+      var source_idx = "";
+
+      var show_comment = "0";
+      var __appmsgCgiData = {
+            can_use_page : "0"*1,
+            is_wxg_stuff_uin : "0"*1,
+            card_pos : "",
+            copyright_stat : "0",
+            source_biz : "",
+            hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM5vWeI5Qjwk2RcMTiceGOSESu0G7lxVMpd5Rvx7jbQYia5w/0"||(window.location.protocol+"//"+window.location.host + "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x264e76.jpg")
+      };
+      var _empty_v = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty26f1f1.mp3";
+
+      var copyright_stat = "0" * 1;
+
+      var pay_fee = "" * 1;
+      var pay_timestamp = "";
+      var need_pay = "" * 1;
+
+      var need_report_cost = "0" * 1;
+      
+            window.wxtoken = "2022385945";
+        </script>
+
+  <script type="text/javascript">
+      seajs.use('appmsg/index.js');
+  </script>
+
+
+    </body>
+</html>
+
+ 
