@@ -12,7 +12,7 @@
 #          BUGS:  ---
 #         NOTES:  ---
 #        AUTHOR:   (), 
-#       COMPANY:  Baidu.com, Inc
+#       COMPANY:  
 #       VERSION:  1.0
 #       CREATED:  01/27/2015 04:32:12 PM CST
 #      REVISION:  ---
