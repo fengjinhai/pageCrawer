@@ -1,7 +1,7 @@
 #! /bin/sh
 #
 # release.sh
-# Copyright (C) 2015 冯锦海 <fengjinhai@baidu.com>
+# Copyright (C) 2015 冯锦海 <fengjinhai>
 #
 # Distributed under terms of the MIT license.
 #
@@ -10,9 +10,9 @@
 RELEASE_DIR=/home/work/dunews-release/dunews-selectsvr
 WORK_DIR=/home/work/fengjinhai/dunews-selectsvr
 HOST_DIR=/home/work/dunews-selectsvr
-SOURCE_HOST=cq01-globalpm-eval1-5.cq01.baidu.com
-HOSTS="hkg02-dutube-disk04.hkg02.baidu.com"
-#HOSTS="work@nj02-gnews-app00.nj02"
+SOURCE_HOST=
+HOSTS=
+
 SOURCE_NAME=dunews-selectsvr.tar
 [[ -d ${RELEASE_DIR} ]] || mkdir -p ${RELEASE_DIR}
 cd ${RELEASE_DIR}
