@@ -1,4 +1,4 @@
-host = '10.136.30.64'
-user = 'phone_spider'
-passwd = 'spider@64'
+host = ''
+user = ''
+passwd = ''
 db = 'phonenumber_crawler'
